@@ -1,6 +1,12 @@
 #pragma once
 #ifndef IBU_H
 #defind IBU_H
+#include <iostream>
+#include <anak.h>
+#include <vector>
+using namespace std;
+
+
 class ibu {
 public:
 	string nama;
