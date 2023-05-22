@@ -1,25 +1,26 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 class mahasiswa {
 private:
 	const int id;
 	string nama;
-	float nilia;
+	float nilai;
 	
 public:
-	mahasiswa(int pId, string pNama, float pNilia) :id(pId, nama(pNama), nilia(pNilia){
-
+	mahasiswa(int pId, string pNama, float pNilia) :id(pId), nama(pNama), nilai(pNilia){
+		//member initialization list definition
 	}
-	~mhasiswa() {
+	~mahasiswa() {
 		cout << "Id = " << id << endl;
 		cout << "Nama = " << nama << endl;
-		cout << "Nilia = " << nilia << endl;
+		cout << "Nilai = " << nilai << endl;
 	}
 };
 
 int main() {
-	mahasiswa mhs(12, "Lia, 90.5");
+	mahasiswa mhs(12, "Asroni", 90.5);
 	return 0;
 
 }
